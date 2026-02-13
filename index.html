@@ -331,7 +331,7 @@ Tal vez no sepamos exactamente qué pasará mañana, pero hoy te quiero, hoy te 
 Feliz 14 de febrero, mi niña. ❤️ Siempre voy a guardar lo nuestro como algo bonito, pase lo que pase.
 Quieres ser mi San Valentín? ❤️`;
 
-        const frasesMini = ["Eres mi mundo. 🌎", "Te amo infinito. ❤️", "Gracias por existir. ✨"];
+        const frasesMini = ["Eres mi mundo. 🌎", "Te amo hasta el infinito. ❤️", "Gracias por existir. ✨", "Te amo estrellita. ⭐"];
 
         // CORRECCIÓN: FUNCIÓN DE ESCRITURA MEJORADA
         let escribiendo = false;
@@ -375,7 +375,7 @@ Quieres ser mi San Valentín? ❤️`;
 
         function crearCorazonLluvia() {
             const el = document.createElement('div'); el.className = 'falling-item';
-            el.innerHTML = ['❤️', '💖', '💜', '🌸'][Math.floor(Math.random()*4)];
+            el.innerHTML = ['❤️', '💖', '💜', '💐'][Math.floor(Math.random()*4)];
             el.style.left = Math.random()*100 + "vw"; el.style.fontSize = (Math.random()*20+15)+"px";
             el.style.animationDuration = (Math.random()*3+2)+"s"; document.body.appendChild(el);
             setTimeout(() => el.remove(), 5000);
